@@ -1,0 +1,238 @@
+*{
+    font-family: sans-serif;
+
+}
+
+/*body*/
+body{
+    background-image:url(../images/Minecraft-Dungeons1234556.jpg) !important ;;
+    background-repeat: no-repeat;
+    background-size: 100% 60vh;
+    background-attachment: local;
+    background-color: #353434;
+
+}
+/*header*/
+header{
+    margin: 0px;
+    padding: 0;
+}
+header .header{
+    display: flex;
+    float: center;
+    justify-content: space-between;
+    background-color:#ffffff00;
+}
+.header__nav__ul {
+    align-items: right ;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.header__nav__ul li{
+
+    padding: 10px;
+    font-size: 4vh;
+    line-height: 2px;
+    margin: 10px;
+    background-color: #ffffff00;
+
+
+}
+.header__nav__ul li a{
+    text-decoration: none;
+    color: #FFC400;
+    padding: 2px;
+    margin: 2px;
+   
+}
+.header .header__logo{
+    width: 30px;
+}
+
+.header__nav ul{
+    background-color: #ffffff00;;
+}
+hr{
+    border: 2px solid #FFC400;
+}
+/* Footer*/
+footer{
+    padding: 0;
+    margin: 0;
+    overflow:hidden ;
+}  
+/*info div*/ 
+.contenedorf{
+
+    justify-content: space-between;
+    display: flex;
+    padding:0;
+    
+}
+.contenedorf__divinfo{
+    width: 25%;
+}
+.contenedorf__divinfo__h3{
+    color: #FFC400;
+    text-align: center;
+    font-size: 20px;
+
+}
+.contenedorf__divinfo__h3__texto
+{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+.contenedorf__divinfo   .contenedorf__divinfo__h4{
+    display: flex;
+    text-align: center;
+    padding: 7px;
+    margin: 15px;
+}
+.contenedorf__divinfo__h4 .contenedorf__divinfo__h4__text{
+    color: #999999;
+    font-size: 20px;
+}
+/*logos div*/
+    
+.contenedorf__divlogos{
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+.contenedorf__divlogos .instalogo{
+    width: 50px;
+    text-align: left;
+    margin-top: 20px;
+    padding: 2px;
+}
+.contenedorf__divlogos .dslogo{
+    width: 72px;
+    text-align: right;
+    top: 0px;
+    margin:20px;
+    margin-top: 0px;
+    padding: 2px;
+
+}
+.contenedorf__divlogos .twlogo{
+    width: 50px;
+    text-align: left;
+    margin-top: 20px;
+    padding: 2px;
+}
+.logopdiv{
+    margin-bottom: 50px;
+    padding: 2px;
+    text-align: center;
+}
+/* links div*/
+.contenedorf__divlinks{
+    width: 20%;
+    padding: 0;
+    margin: 10px 5px;
+
+}
+.contenedorf__divlinks__nav .contenedorf__divlinks__nav__ul{
+    list-style: none;
+    text-align: center;
+}
+.contenedorf__divlinks__nav .contenedorf__divlinks__nav__ul li a{
+    color: #999999;
+    text-align:center;
+    text-decoration-style: solid 1px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+/* BODY INDEX*/
+.sacar{
+    color: aqua;
+}
+
+.contenedormt{
+    justify-content: space-between;
+    display: flex
+    
+}
+.contenedormt .contenedormt__div{
+    display: inline-block;
+    text-align: center;
+    width: 65%;
+    margin-top: 5%;
+    margin-left: 10vh;
+    
+}
+.contenedormt .contenedormt__div .contenedormt__div__text{
+    color: white;
+    font-size: 20px;
+    justify-content: left;
+}
+.contenedormt .contenedormt__div .contenedormt__div__titulo{
+    color: #FFC400;
+    font-size: 40px;
+}
+.contenedormt__divlogo{
+    width: 30%;
+    border: 1px solid red;
+    text-align: center;
+    margin-top: 5%;
+}
+.contenedormt__divlogo img{
+    width: 100px;
+}
+
+.contenedorst__div{
+    text-align: center;
+    width: 100vh;
+    margin-left: 30%;
+    margin-right: 25%;
+    margin-top: 5%;
+
+
+}
+.contenedorst__div__titulo{
+    color: #FFC400;
+    font-size: x-large;
+
+}
+.contenedorst__div__text{
+    color: #c4c3c3ce;
+    font-size: large;
+}
+.divdes{
+    display: flex;
+    margin-bottom: 10vh;
+}
+.divdesarrolador1{
+    background-color: #353434;
+    padding: 20px;
+    margin-top: 10vh;
+    margin-left: 20vh;
+    width: 30%;
+    text-align: center;
+}
+
+.divdesarrolador1__D1{
+    width: 200px;
+    text-align: center;   
+}
+.divdesarrolador1__st{
+    font-size: x-large;
+    color: #FFC400;
+}
+.divdesarrolador1__text{
+    font-size: medium;
+    color: #ebe7e7ce;
+}
+.divdesarrolador2{
+    padding: 20px;
+    margin-top: 10vh;
+    margin-left: 60vh;
+    width: 30%;
+    text-align: center;
+    margin-right: 20vh;
+    background-color: #353434;
+
+}
