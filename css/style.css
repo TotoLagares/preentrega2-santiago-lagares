@@ -55,6 +55,14 @@
 
 
 /*body*/
+body{
+    background-image: url(../images/Minecraft-Dungeons123455666.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% 25%;
+    background-attachment: local;
+    background-color: #242020;
+}
+
 .bodys{
     background-image: url(../images/Minecraft-Dungeons123455666.png) !important;
     background-repeat: no-repeat;
@@ -65,7 +73,7 @@
 .bodym{
     background-image: url(../images/Minecraft-Dungeons123455666.png) !important;
     background-repeat: no-repeat;
-    background-size: 100% 50%;
+    background-size: 100% 30%;
     background-attachment: local;
     background-color: #242020;
 
