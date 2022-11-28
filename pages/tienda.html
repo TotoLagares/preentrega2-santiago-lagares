@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header>
@@ -30,9 +31,12 @@
                 </div>
             </nav>
         </div>    
-        <hr>
+        <hr class="linea">
     </header>
     <main class="animate__animated animate__fadeInDown">
+        <div class="container text-center  divlogo">
+            <img src="../images/isologo.png" alt="" class="img-fluid logoimg text-center ">
+        </div>
         <div>
             <h2>Bienvenidos a la</h2>
             <h1>Tienda del Servidor</h1>
@@ -46,44 +50,39 @@
         </div>
     </main>
     <footer class="footer">
-        <hr>
-        <div class="justify-content-space-between row">
-            <div class="container col-md-3 text-center logoft">
-                <img src="../images/isologo.png" alt="" class="img-fluid logoimg text-center">
-            </div>
-            <div class="col-md-auto icdiv">
-                <div class="icono">
-                    <a href="">
-                        <i class="fa-brands fa-twitch"></i>
-                        <div class="linea"></div>
-                    </a>
+        <hr class="linea2">
+        <div class="container">
+            <div class=" row">
+                <div class="container col-md-5  text-center logoft">
+                    <img src="../images/isologo.png" alt="" class="img-fluid logoimg text-center">
                 </div>
-                <div class="icono">
-                    <a href="#" target="_blank">
-                        <i class="fa-brands fa-twitter"></i>
-                        <div class="linea"></div>
-                    </a>
-        
+                <div class="container col-md-auto justify-content-center">
+                    <div class="text-center  contenedorlogos">
+                        <div class="icon">
+                            <a href="#" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://discord.gg/wkZCr3qP" target="_blank"><i class='bx bxl-discord-alt' ></i></a>
+                        </div>       
+                        <div class="icon">
+                            <a href="#" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                        </div>
+                    </div>
+                        <div class="container  mt-4">
+                            <nav class="">
+                                <ul class="nav  my-2 justify-content-center text-small">
+                                    <li><a href="../index.html" class="fs-4 nav-link link-secondary">Menu</a></li>
+                                    <li><a href="./modalidades.html" class="fs-4 nav-link link-secondary">Modalidades</a></li>
+                                    <li><a href="#" class="fs-4 nav-link link-secondary">Tienda</a></li>
+                                    <li><a href="./sanciones.html" class="fs-4 nav-link link-secondary">Sanciones</a></li>
+                                    <li><a href="./contacto.html" class="fs-4 nav-link link-secondary">Contacto</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+               
+                    </div>
                 </div>
-                <div class="icono">
-                    <a href="">
-                        <i class="fa-brands fa-discord"></i>
-                        <div class="linea"></div>
-                    </a>
-                </div>
-            </div>
-            <div class="container col-md-auto mt-4 ">
-                <nav class="">
-                    <ul class="nav col-lg my-2 justify-content-center text-small">
-                        <li><a href="../index.html" class="fs-6 nav-link link-secondary">Menu</a></li>
-                        <li><a href="modalidades.html" class="fs-6 nav-link link-secondary">Modalidades</a></li>
-                        <li><a href="#" class="fs-6 nav-link link-secondary">Tienda</a></li>
-                        <li><a href="sanciones.html" class="fs-6 nav-link link-secondary">Sanciones</a></li>
-                        <li><a href="contacto.html" class="fs-6 nav-link link-secondary">Contacto</a></li>
-                    </ul>
-                </nav>
-            </div>
-    
+
         </div>
     </footer>
     <script src="../js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
