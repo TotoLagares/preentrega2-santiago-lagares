@@ -1,0 +1,6 @@
+@mixin carta($color-subtitulo){
+    margin-bottom: 0.5rem;
+    font-size: calc(1.275rem + 0.3vw);
+    color: $color-subtitulos;
+    font-family: Nerko One, cursive;
+}

@@ -1,0 +1,86 @@
+
+
+/*body*/
+body {
+    background-image: url(../images/Minecraft-Dungeons123455666.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% 80vh;
+    background-attachment: local;
+    background-color: #242020;
+    height: 250vh;
+    max-width: $ancho; }
+    
+@media screen and (max-width: 767px) {
+    body {
+      background-size: 100% $ancho/4.8;
+       
+    } 
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+      background-size: 100% 25%; } }
+/*Generales*/
+.h1color {
+    color: $color-titulos;
+    font-family: Nerko One, cursive;
+    font-size: 3.5rem; 
+}
+  
+.textos {
+    color: $color-textos }
+  
+.subtitulos {
+    color: $color-subtitulos;
+    font-family: Nerko One, cursive;
+    font-size: 3rem; }
+.divlogo {
+    margin-left: 12%; 
+    .logoimg {
+        width: 115vh;
+        overflow: hidden;
+        padding: 0;
+        margin-top: 0; 
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .logoimg {
+      height: $ancho;
+      width: $ancho;
+      margin-bottom: 5%; }
+    .textos {
+      font-size: 3vh; } 
+    }
+    .btn__{
+        font-size: 5vh;
+        height: 5vh;
+    }
+    
+/*Index*/
+.hrcard {
+    color: $color-subtitulos;
+    border: 2px solid $color-subtitulos; }
+.card-desarrollador{
+    @include carta;
+}    
+/*Modalidades*/
+.containermodalidades{
+    background-color: rgba(109, 109, 109, 0.116);
+}
+/*contacto*/
+.formulario{
+    font-family: Nerko One, cursive;
+}
+/*TIenda*/
+.btn__{
+    height: 15vh;
+    background-color: rgb(46, 46, 46);
+}
+.hmodalidades{
+    font-family: Nerko One, cursive;
+    color: rgb(221, 111, 37);
+    font-size: 5vh;
+}
+.bgtienda{
+    background-color: rgb(46, 46, 46);
+}

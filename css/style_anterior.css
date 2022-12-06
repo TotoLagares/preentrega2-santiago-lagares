@@ -1,0 +1,192 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@import url(https://fonts.googleapis.com/css?family=Muli);
+.snip1555 {
+    text-transform: uppercase;
+  }
+  .snip1555 li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0.5em 0.6em;
+    padding: 0.2rem 0.2rem;
+    position: relative;
+  }
+  .snip1555 li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Nerko One, cursive;
+  }
+  .snip1555 li:before,
+  .snip1555 li:after {
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    height: 2px;
+    width: 20%;
+    background-color: #ffffff;
+    position: absolute;
+    content: '';
+    opacity: 0;
+  }
+  .snip1555 li:before {
+    top: 0;
+    left: 0;
+  }
+  .snip1555 li:after {
+    bottom: 0;
+    right: 0;
+  }
+  .snip1555 li:hover:before,
+  .snip1555 li.hover:before,
+  .snip1555 li:hover:after,
+  .snip1555 li.hover:after {
+    opacity: 1;
+  }
+  .snip1555 li:hover:before,
+  .snip1555 li.hover:before {
+    left: 65%;
+  }
+  .snip1555 li:hover:after,
+  .snip1555 li.hover:after {
+    right: 65%;
+  }
+*{
+    font-family: sans-serif;
+
+}
+
+
+/*body*/
+body{
+    background-image: url(../images/Minecraft-Dungeons123455666.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% 80vh;
+    background-attachment: local;
+    background-color: #242020;
+    height: 250vh;
+    max-width: 100%;
+
+}
+
+@media screen and (max-width: 767px) {
+    body{
+        background-size: 100% 20%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body{
+        background-size: 100% 20%;
+    }
+}
+
+
+.h1color{
+    color: #ebd976;
+    font-family: Nerko One, cursive;
+    font-size: 3.5rem;
+}
+.textos{
+    color: #ffffffb0
+}
+.subtitulos{
+ color: #BC2121;
+ font-family: Nerko One, cursive;
+ font-size: 3rem;
+}
+.logoimg{
+    width: 10vh;
+    overflow: hidden;
+    padding: 0;
+}
+@media screen and (max-width: 767px) {
+    .logoimg{
+        height: 30vh;
+        margin-bottom: 5%;
+    }
+    body{
+        background-size: 100% 20%;
+    }
+    .textos{
+        font-size: 3vh;
+    }
+    .linea{
+        border: purple;
+    }
+}   
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+.divlogo{
+    margin-left: 12%;
+}
+.navit{
+    align-items: center;
+    
+
+}
+ .linea{
+    border: 1px solid rgba(238, 37, 37, 0.836);
+    width: 50%;
+    margin-left: 25%;;
+}
+.linea2{
+    border: 1px solid rgba(238, 37, 37, 0.836);
+    width: 50%;
+    margin-left: 25%;
+}
+.logoft{
+    margin-left: 5vh;
+    width: 50vh;
+}
+.prox{
+    width: 100%;
+}
+/*Iconos */
+.contenedorlogos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+.icon {
+    position: relative;
+    width: 3.7rem;
+    height:  3.7rem;
+    margin: 0.5rem;
+    border-radius: 50%;
+    transition: all .8s;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background-color: #1877f2;
+    box-shadow:  0 0 20px #fdf291 ;
+}
+
+.icon:hover:nth-child(2) {
+    background-color: #3e60f5;
+    box-shadow:  0 0 20px #fdf291;
+}
+
+.icon:hover:nth-child(3) {
+    background-color: #1877f2;
+    box-shadow: 0 0 20px #fdf291 ;
+}
+
+.icon:hover:nth-child(4) {
+    background-color: #1da1f2;
+    box-shadow:  0 0 20px #1da1f2 ;
+}
+
+.icon i {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2.5rem;
+}
+.hrcard{
+    color: red;
+    border: 2px solid red;
+}
+/* Logos footer*/
+
+
